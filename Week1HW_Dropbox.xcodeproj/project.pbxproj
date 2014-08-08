@@ -18,6 +18,8 @@
 		6A2FC49B1995649D004D0DAC /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC49A1995649D004D0DAC /* SignInRootViewController.swift */; };
 		6A2FC49D199564A7004D0DAC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC49C199564A7004D0DAC /* SignInViewController.swift */; };
 		6A2FC49F19956A76004D0DAC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC49E19956A76004D0DAC /* SettingsViewController.swift */; };
+		6A2FC4A119956D5E004D0DAC /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC4A019956D5E004D0DAC /* FilesViewController.swift */; };
+		6A2FC4A319956D73004D0DAC /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC4A219956D73004D0DAC /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		6A2FC49A1995649D004D0DAC /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		6A2FC49C199564A7004D0DAC /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		6A2FC49E19956A76004D0DAC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6A2FC4A019956D5E004D0DAC /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		6A2FC4A219956D73004D0DAC /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				6A2FC49A1995649D004D0DAC /* SignInRootViewController.swift */,
 				6A2FC49C199564A7004D0DAC /* SignInViewController.swift */,
 				6A2FC49E19956A76004D0DAC /* SettingsViewController.swift */,
+				6A2FC4A019956D5E004D0DAC /* FilesViewController.swift */,
+				6A2FC4A219956D73004D0DAC /* PhotosViewController.swift */,
 			);
 			name = Swift;
 			sourceTree = "<group>";
@@ -241,7 +247,9 @@
 				6A2FC476199558D3004D0DAC /* ViewController.swift in Sources */,
 				6A2FC474199558D3004D0DAC /* AppDelegate.swift in Sources */,
 				6A2FC49719955EA2004D0DAC /* TermsViewController.swift in Sources */,
+				6A2FC4A119956D5E004D0DAC /* FilesViewController.swift in Sources */,
 				6A2FC49F19956A76004D0DAC /* SettingsViewController.swift in Sources */,
+				6A2FC4A319956D73004D0DAC /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
