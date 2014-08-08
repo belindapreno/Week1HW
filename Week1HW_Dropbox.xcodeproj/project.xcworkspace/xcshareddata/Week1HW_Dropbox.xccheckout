@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>69EF97E6-008B-43D0-A236-1A779610E0AA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Week1HW_Dropbox</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68A52B4642F7AC7E7007ED34757523CE97F5C61F</key>
+		<string>github.com:belindapreno/Week1HW.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Week1HW_Dropbox.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68A52B4642F7AC7E7007ED34757523CE97F5C61F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:belindapreno/Week1HW.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68A52B4642F7AC7E7007ED34757523CE97F5C61F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68A52B4642F7AC7E7007ED34757523CE97F5C61F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Week1HW_Dropbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>

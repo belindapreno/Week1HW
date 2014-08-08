@@ -1,18 +1,18 @@
 //
 //  CreateAccountViewController.swift
-//  Week1MonHW
+//  Week1HW_Dropbox
 //
-//  Created by Belinda Preno on 8/7/14.
+//  Created by Belinda Preno on 8/8/14.
 //  Copyright (c) 2014 bp. All rights reserved.
 //
 
 import UIKit
 
 class CreateAccountViewController: UIViewController {
-        
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
 
@@ -22,7 +22,9 @@ class CreateAccountViewController: UIViewController {
     }
     
     @IBAction func onPreviousButton(sender: AnyObject) {
-        navigationController.popToRootViewControllerAnimated(true)
+     navigationController.popToRootViewControllerAnimated(true
+        )
+        
     }
 
     /*

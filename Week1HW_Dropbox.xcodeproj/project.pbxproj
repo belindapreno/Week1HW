@@ -12,6 +12,9 @@
 		6A2FC479199558D3004D0DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2FC477199558D3004D0DAC /* Main.storyboard */; };
 		6A2FC47B199558D3004D0DAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2FC47A199558D3004D0DAC /* Images.xcassets */; };
 		6A2FC487199558D3004D0DAC /* Week1HW_DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC486199558D3004D0DAC /* Week1HW_DropboxTests.swift */; };
+		6A2FC49119955B9E004D0DAC /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC49019955B9E004D0DAC /* CreateAccountRootViewController.swift */; };
+		6A2FC49319955C10004D0DAC /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC49219955C10004D0DAC /* CreateAccountViewController.swift */; };
+		6A2FC49719955EA2004D0DAC /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC49619955EA2004D0DAC /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		6A2FC480199558D3004D0DAC /* Week1HW_DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week1HW_DropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2FC485199558D3004D0DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A2FC486199558D3004D0DAC /* Week1HW_DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week1HW_DropboxTests.swift; sourceTree = "<group>"; };
+		6A2FC49019955B9E004D0DAC /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		6A2FC49219955C10004D0DAC /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		6A2FC49619955EA2004D0DAC /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +81,7 @@
 		6A2FC470199558D3004D0DAC /* Week1HW_Dropbox */ = {
 			isa = PBXGroup;
 			children = (
-				6A2FC473199558D3004D0DAC /* AppDelegate.swift */,
-				6A2FC475199558D3004D0DAC /* ViewController.swift */,
+				6A2FC49919955EBE004D0DAC /* Swift */,
 				6A2FC477199558D3004D0DAC /* Main.storyboard */,
 				6A2FC47A199558D3004D0DAC /* Images.xcassets */,
 				6A2FC471199558D3004D0DAC /* Supporting Files */,
@@ -107,6 +112,18 @@
 				6A2FC485199558D3004D0DAC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A2FC49919955EBE004D0DAC /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6A2FC49019955B9E004D0DAC /* CreateAccountRootViewController.swift */,
+				6A2FC473199558D3004D0DAC /* AppDelegate.swift */,
+				6A2FC475199558D3004D0DAC /* ViewController.swift */,
+				6A2FC49219955C10004D0DAC /* CreateAccountViewController.swift */,
+				6A2FC49619955EA2004D0DAC /* TermsViewController.swift */,
+			);
+			name = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2FC49319955C10004D0DAC /* CreateAccountViewController.swift in Sources */,
+				6A2FC49119955B9E004D0DAC /* CreateAccountRootViewController.swift in Sources */,
 				6A2FC476199558D3004D0DAC /* ViewController.swift in Sources */,
 				6A2FC474199558D3004D0DAC /* AppDelegate.swift in Sources */,
+				6A2FC49719955EA2004D0DAC /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

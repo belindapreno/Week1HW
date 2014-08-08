@@ -1,8 +1,8 @@
 //
 //  CreateAccountRootViewController.swift
-//  Week1MonHW
+//  Week1HW_Dropbox
 //
-//  Created by Belinda Preno on 8/5/14.
+//  Created by Belinda Preno on 8/8/14.
 //  Copyright (c) 2014 bp. All rights reserved.
 //
 
@@ -12,11 +12,9 @@ class CreateAccountRootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
         performSegueWithIdentifier("CreateAccountSegue", sender: nil)
 
-        
         // Do any additional setup after loading the view.
     }
 

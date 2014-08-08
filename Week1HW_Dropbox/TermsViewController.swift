@@ -1,6 +1,6 @@
 //
 //  TermsViewController.swift
-//  Week1MonHW
+//  Week1HW_Dropbox
 //
 //  Created by Belinda Preno on 8/8/14.
 //  Copyright (c) 2014 bp. All rights reserved.
@@ -20,11 +20,12 @@ class TermsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     @IBAction func didPressDoneButton(sender: AnyObject) {
+        
         dismissViewControllerAnimated(true, completion: nil)
     }
-
+    
     /*
     // MARK: - Navigation
 
