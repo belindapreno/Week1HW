@@ -22,8 +22,7 @@ class CreateAccountViewController: UIViewController {
     }
     
     @IBAction func onPreviousButton(sender: AnyObject) {
-     navigationController.popToRootViewControllerAnimated(true
-        )
+     navigationController.popToRootViewControllerAnimated(true)
         
     }
 

@@ -126,6 +126,16 @@
                                     <segue destination="qgg-Dw-9Uk" kind="push" identifier="CreateAccountSegue" id="u3L-O7-dO3"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fuq-OI-hvz">
+                                <rect key="frame" x="0.0" y="427" width="320" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8ft-FU-3gL" kind="modal" animates="NO" id="jfe-E9-oqK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -478,6 +488,16 @@
                                     <segue destination="Zvr-ur-tD2" kind="push" identifier="SignInSegue" id="Tsa-LT-krm"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="beK-Ye-uYS">
+                                <rect key="frame" x="0.0" y="468" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SEX-y6-dRT" kind="modal" animates="NO" id="6Ym-b2-ZaV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -596,6 +616,16 @@
                                     <segue destination="KNV-p3-IWg" kind="modal" animates="NO" id="bI1-JO-Pww"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ad2-vT-rll">
+                                <rect key="frame" x="61" y="186" width="199" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zvY-GO-tfH" kind="modal" animates="NO" id="cLv-3F-iLa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -691,6 +721,13 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="0.94117647058823528" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wju-9j-dlh">
+                                        <rect key="frame" x="0.0" y="692" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.95919667119999996" green="0.95919667119999996" blue="0.95919667119999996" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
@@ -698,6 +735,8 @@
                         <color key="backgroundColor" red="0.94117647058823528" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="rF1-Z2-aeh"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <outlet property="settingsImageView" destination="VgJ-R9-sOR" id="xOb-ak-VT1"/>
                         <outlet property="settingsScrollView" destination="KQx-QT-f0n" id="R1Q-ju-NFo"/>
@@ -1022,6 +1061,9 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="jfe-E9-oqK"/>
+        <segue reference="6Ym-b2-ZaV"/>
         <segue reference="rXi-WL-JPu"/>
+        <segue reference="cLv-3F-iLa"/>
     </inferredMetricsTieBreakers>
 </document>
