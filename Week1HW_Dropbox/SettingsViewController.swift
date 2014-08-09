@@ -25,14 +25,12 @@ class SettingsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-//    
-//    @IBAction func onDidSignOutButton(sender: AnyObject) {
-//        var storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        var vc = storyboard.instantiateViewControllerWithIdentifier("LoggedOutStoryboard") as UIViewController
-//        
-//        UIApplication.sharedApplication().keyWindow.rootViewController = vc
-//    
-//    }
+    
+    @IBAction func onDidSignOutButton(sender: AnyObject) {
+        
+        didSignOut = true
+    
+    }
     /*
     // MARK: - Navigation
 

@@ -13,7 +13,12 @@ class SignInRootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        performSegueWithIdentifier("SignInSegue", sender: nil)
+        if (!didSignOut) {
+            performSegueWithIdentifier("SignInSegue", sender: nil)
+        }
+        
+        didSignOut = false
+        
 
         // Do any additional setup after loading the view.
     }

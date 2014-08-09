@@ -13,7 +13,13 @@ class CreateAccountRootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        performSegueWithIdentifier("CreateAccountSegue", sender: nil)
+        if (!didSignOut) {
+            performSegueWithIdentifier("CreateAccountSegue", sender: nil)
+        }
+        
+        didSignOut = false
+        
+        
 
         // Do any additional setup after loading the view.
     }
