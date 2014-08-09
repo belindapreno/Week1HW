@@ -4,6 +4,7 @@
 
 **Stories completed:** All required
 
+
 **Walkthrough:**
 
 ![Alt text](/Week1HW_DropboxPrototype.gif?raw=true "GIF Walkthrough")
