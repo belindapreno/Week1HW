@@ -31,7 +31,7 @@ class SettingsViewController: UIViewController {
 //        var vc = storyboard.instantiateViewControllerWithIdentifier("LoggedOutStoryboard") as UIViewController
 //        
 //        UIApplication.sharedApplication().keyWindow.rootViewController = vc
-    
+//    
 //    }
     /*
     // MARK: - Navigation

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="YqB-Mx-w9a">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
     </dependencies>
@@ -589,16 +589,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rrq-fq-B6U">
-                                <rect key="frame" x="0.0" y="20" width="119" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onPreviousButton:" destination="0RH-dB-Jv4" eventType="touchUpInside" id="pev-Jc-AQZ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jv9-v6-429">
                                 <rect key="frame" x="61" y="192" width="199" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -728,7 +718,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="onDidSignOutButton:" destination="T7r-Ms-Pcx" eventType="touchUpInside" id="fU7-CB-ud5"/>
+                                            <segue destination="SEX-y6-dRT" kind="modal" animates="NO" id="58B-Ge-69C"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -942,6 +932,9 @@
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="8ft-FU-3gL" kind="modal" animates="NO" id="EWR-vw-1N7"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.95919667119999996" green="0.95919667119999996" blue="0.95919667119999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -1073,9 +1066,9 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="jfe-E9-oqK"/>
-        <segue reference="6Ym-b2-ZaV"/>
+        <segue reference="EWR-vw-1N7"/>
         <segue reference="rXi-WL-JPu"/>
-        <segue reference="cLv-3F-iLa"/>
+        <segue reference="6gJ-VH-lhz"/>
+        <segue reference="58B-Ge-69C"/>
     </inferredMetricsTieBreakers>
 </document>
